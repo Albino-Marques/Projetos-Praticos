@@ -30,6 +30,7 @@ h1 {
 .key button {
     width: 80px;
     height: 80px;
+    border-radius: 50%;
     border: 2px solid rgb(129, 16, 16);
     color: rgb(129, 16, 16);
     background: #000000;
@@ -41,6 +42,7 @@ h1 {
 }
 
 .key.active {
+    border-radius: 50%;
     border: 2px solid rgb(94, 9, 9);
     color: rgb(94, 9, 9);
 }
