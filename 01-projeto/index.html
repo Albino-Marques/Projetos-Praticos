@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum Kit</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <h1>Drum Kit</h1>
+
+    <div class="keys">
+        <button>
+            <div data-key="numpad7" class="key">7</div>
+        </button>
+        <button>
+            <div data-key="numpad8" class="key">8</div>
+        </button>
+        <button>
+            <div data-key="numpad9" class="key">9</div>
+        </button>
+
+        <button>
+            <div data-key="numpad4" class="key">4</div>
+        </button>
+        <button>
+            <div data-key="numpad5" class="key">5</div>
+        </button>
+        <button>
+            <div data-key="numpad6" class="key">6</div>
+        </button>
+
+        <button>
+            <div data-key="numpad1" class="key">1</div>
+        </button>
+        <button>
+            <div data-key="numpad2" class="key">2</div>
+        </button>
+        <button>
+            <div data-key="numpad3" class="key">3</div>
+        </button>
+    </div>
+    <div class="composer">
+        <input type="text" id="input" placeholder="Componha uma música..." />
+        <button>Reproduzir</button>
+    </div>
+
+    <footer>
+        <a href="https://albino-marques.github.io/portfolio/" style="text-decoration: none; color: white">By Albino
+            Marques</a>
+
+    </footer>
+
+    <audio id="s_numpad7" src="sounds/numpad7.wav"></audio>
+    <audio id="s_numpad8" src="sounds/numpad8.wav"></audio>
+    <audio id="s_numpad9" src="sounds/numpad9.wav"></audio>
+    <audio id="s_numpad4" src="sounds/numpad4.wav"></audio>
+    <audio id="s_numpad5" src="sounds/numpad5.wav"></audio>
+    <audio id="s_numpad6" src="sounds/numpad6.wav"></audio>
+    <audio id="s_numpad1" src="sounds/numpad1.wav"></audio>
+    <audio id="s_numpad2" src="sounds/numpad2.wav"></audio>
+    <audio id="s_numpad3" src="sounds/numpad3.wav"></audio>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
